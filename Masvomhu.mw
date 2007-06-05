@@ -1,6 +1,6 @@
 '''Ngatitangei nemaNhamba:
 
-1 = motsi (hwani)
+1 = motsi (imwe)
 
 2 = piri (mbiri)
 
@@ -8,7 +8,7 @@
 
 4 = ina (zvina)
 
-5 = shanu 
+5 = shanu (zvishanu)
 
 6 = tanhatu (nhanhatu)
 
@@ -24,7 +24,7 @@
 
 1,000 = churu
 
-1,000,000 = miriyoni'''
+1,000,000 = mazana akazanirana
 
 example: 
 
