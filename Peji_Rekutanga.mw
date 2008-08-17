@@ -26,13 +26,21 @@ Tsvakai muwedzere ruzivo gwenyu nezve [http://www.wikipedia.org/wiki/Wikipedia:C
 * [[Ruzivo rwezvisikwa zvinorarama]]
 * [[Ruzivo nohunyanzvi hwemichina]]
  
-{| width="60%" style="border:1px solid black"
+<center>
+<div style="width:98%;margin-top:.7em;border:1px solid gold;background:#cef2e0;padding:.7em;text-align:center"> 	 
+<big>'''[[{{CURRENTDAYNAME}}]] [[{{CURRENTDAY}} {{CURRENTMONTHNAME}}|{{CURRENTDAY}}]] [[{{CURRENTMONTHNAME}}]] [[{{CURRENTYEAR}}]]'''</big>
+* '''Article #{{NUMBEROFARTICLES}} :''' {{Special:Newpages/1}}
+</div>
+</center>
+<br>
+{| width="60%" style="border:1px solid black" align=center
 |
 <inputbox>
 type=create
 width=45
 </inputbox>
 |}
+
 ==Other African-language Wikipedias that are not among large ones==
 [[:aa:|Afar]]&nbsp;·
 [[:af:|Afrikaans]]&nbsp;·
