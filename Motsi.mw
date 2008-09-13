@@ -1,3 +1,368 @@
-== hi isaya ==
+  This article needs to translate in Chishona.
+'''1''' ('''one''') is a [[number]], [[number names|numeral]], and the name of the [[glyph]] representing that number.
+It represents a single entity. One is sometimes referred to as '''unity''' or, as an adjective, '''unit'''. For example, a [[line segment]] of "unit length" is a line segment of [[length]] 1.
 
-{{delete}}
+In mathematics, it may represent:
+* historically, the first [[ordinal number]], though the majority of modern conventions use [[0 (number)|0]] as the first ordinal
+* the [[natural number]] following 0 and preceding [[2 (number)|2]], the multiplicative [[identity (mathematics)|identity]] of the [[integer]]s
+* the corresponding [[real number]] 1, the multiplicative identity of the real and [[complex number]]s
+* in [[abstract algebra]], the multiplicative identity
+
+==Mathematics==
+For any number ''x'':
+
+:''x''·1 = 1·''x'' = ''x''  (1 is the [[multiplication|multiplicative]] identity)
+
+:''x''/1 = ''x'' (see [[division (mathematics)|division]])
+
+:''x''<sup>1</sup> = ''x'', 1<sup>''x''</sup> = 1, and for nonzero ''x'', ''x''<sup>0</sup> = 1 (see [[exponentiation]])
+
+Using ordinary [[addition]], we have 1 + 1 = 2.
+
+One cannot be used as the base of a positional [[numeral system]]; sometimes [[tally mark|tallying]] is referred to as "base 1", since only one mark (the tally) is needed, but this is not a positional notation.
+
+The [[logarithm]]s base 1 are undefined, since the function 1<sup>''x''</sup> always equals 1 and so has no unique [[inverse function|inverse]].
+
+In the real number system, 1 can be represented in two ways as a [[recurring decimal]]: as 1.000... and as [[0.999...]] (''q.v.'').
+
+In the [[Peano axioms|Von Neumann representation]] of natural numbers, 1 is defined as the [[set]] {0}. This set has [[cardinality]] 1 and [[hereditary rank]] 1. Sets like this with a single element are called [[singleton (mathematics)|singleton]]s.
+
+In [[Principia Mathematica]], 1 is defined as the set of all singletons.
+
+In a multiplicative [[group (mathematics)|group]] or [[monoid]], the [[identity element]] is sometimes denoted "1", but "''e''" (from the German ''Einheit'', unity) is more traditional. However, "1" is especially common for the multiplicative identity of a [[ring (mathematics)|ring]]. (Note that this multiplicative identity is also often called "unity".)
+
+One is its own [[factorial]], and its own square and cube (and so on, as 1 &times; 1 &times; ... &times; 1 = 1). One is the first [[figurate number]] of every kind, such as [[triangular number]], [[pentagonal number]] and [[centered hexagonal number]] to name just a few.
+
+Because of the multiplicative identity, if ''f''(''x'') is a [[multiplicative function]], then ''f''(1) must equal 1.
+
+It is also the first and second numbers in the [[Fibonacci number|Fibonacci]] sequence, and is the first number in many mathematical sequences. As a matter of convention, Sloane's early ''Handbook of Integer Sequences'' added an initial 1 to any sequence that didn't already have it, and considered these initial 1's in its lexicographic ordering. Sloane's later ''Encyclopedia of Integer Sequences'' and its Web counterpart, the ''[[On-Line Encyclopedia of Integer Sequences]]'', ignore initial ones in their lexicographic ordering of sequences, because such initial ones often correspond to trivial cases.
+
+One is the [[empty product]].
+
+One is the smallest positive odd integer.
+
+One is a [[harmonic divisor number]].
+
+One is often the internal representation of the [[Boolean datatype|Boolean]] constant ''true'' in computer systems.
+
+One is neither a [[prime number]] nor a [[composite number]], but a [[unit (ring theory)|unit]], like -1 and, in the [[Gaussian integers]], ''[[imaginary unit|i]]'' and ''-i''. The [[fundamental theorem of arithmetic]] guarantees [[factorization|unique factorization]] over the integers only up to units (''e.g.'' 4 = 2<sup>2</sup> = (-1)<sup>4</sup>×1<sup>23</sup>×2<sup>2</sup>).
+
+One was formerly considered prime by some mathematicians, using the definition that a prime is divisible only by one and itself. However, this complicates the fundamental theorem of arithmetic, so modern definitions exclude units. The last professional [[mathematician]] to publicly label 1 a prime number was [[Henri Lebesgue]] in 1899.
+
+One is one of three possible values of the [[Möbius function]]: it takes the value one for [[square-free integer|square-free]] integers with an even number of distinct prime factors.
+
+One is the only odd number in the range of [[Euler's totient function]] φ(''x''), in the cases ''x'' = 1 and ''x'' = 2.
+
+One is the only 1-perfect number (see [[multiply perfect number]]).
+
+By definition, 1 is the [[magnitude (mathematics)|magnitude]] or [[absolute value]] of a [[unit vector]] and a [[identity matrix|unit matrix]] (more usually called an ''identity matrix''). Note that the term ''unit matrix'' is usually used to mean something [[unit matrix|quite different]].
+
+One is the most common leading digit in many sets of data, a consequence of [[Benford's law]].
+
+The [[ancient Egypt]]ians represented all fractions (with the exception of 2/3 and 3/4) in terms of sum of fractions with [[numerator]] 1 and distinct [[denominator]]s. For example, <math>\frac{2}{5} = \frac{1}{3} + \frac{1}{15}</math>. Such representations are popularly known as [[Egyptian Fractions]] or [[Unit Fractions]].
+
+The [[Generating Function]] which has all coefficients 1 is given by
+
+<math>\frac{1}{1-x}  = 1 + x + x^2 + x^3 + \cdots</math>.
+
+This power series converges and has finite value if, and only if, <math>| x | < 1</math>.
+
+===List of basic calculations===
+
+{|class="wikitable" style="text-align: center; background: white"
+|-
+!width="105px"|[[Multiplication]]
+!1
+!2
+!3
+!4
+!5
+!6
+!7
+!8
+!9
+!10
+!width="5px"|
+!11
+
+!12
+!13
+!14
+!15
+!16
+!17
+!18
+!19
+!20
+!width="5px"|
+!21
+!22
+!23
+!24
+!25
+!width="5px"|
+!50
+!100
+!1000
+|-
+|<math>1 \times x</math>
+|'''1'''
+|[[2 (number)|2]]
+|[[3 (number)|3]]
+|[[4 (number)|4]]
+|[[5 (number)|5]]
+|[[6 (number)|6]]
+|[[7 (number)|7]]
+|[[8 (number)|8]]
+|[[9 (number)|9]]
+|[[10 (number)|10]]
+!
+|[[11 (number)|11]]
+|[[12 (number)|12]]
+|[[13 (number)|13]]
+|[[14 (number)|14]]
+|[[15 (number)|15]]
+|[[16 (number)|16]]
+|[[17 (number)|17]]
+|[[18 (number)|18]]
+|[[19 (number)|19]]
+|[[20 (number)|20]]
+!
+|[[21 (number)|21]]
+|[[22 (number)|22]]
+|[[23 (number)|23]]
+|[[24 (number)|24]]
+|[[25 (number)|25]]
+!
+|[[50 (number)|50]]
+|[[100 (number)|100]]
+|[[1000 (number)|1000]]
+|}
+
+{|class="wikitable" style="text-align: center; background: white"
+|-
+!width="105px"|[[Division (mathematics)|Division]]
+!1
+!2
+!3
+!4
+!5
+!6
+!7
+!8
+!9
+!10
+!width="5px"|
+!11
+!12
+!13
+!14
+!15
+|-
+|<math>1 \div x</math>
+|'''1'''
+|0.5
+|<math>0.\overline{3}</math>
+|0.25
+|0.2
+|<math>0.1\overline{6}</math>
+|<math>0.\overline{142857}</math>
+|0.125
+|<math>0.\overline{1}</math>
+|0.1
+!
+|<math>0.\overline{0}\overline{9}</math>
+|<math>0.08\overline{3}</math>
+|<math>0.\overline{076923}</math>
+|<math>0.0\overline{714285}</math>
+|<math>0.0\overline{6}</math>
+|-
+|<math>x \div 1</math>
+|'''1'''
+|2
+|3
+|4
+|5
+|6
+|7
+|8
+|9
+|10
+!
+|11
+|12
+|13
+|14
+|15
+|}
+
+{|class="wikitable" style="text-align: center; background: white"
+|-
+!width="105px"|[[Exponentiation]]
+!1
+!2
+!3
+!4
+!5
+!6
+!7
+!8
+!9
+!10
+!width="5px"|
+!11
+!12
+!13
+!14
+!15
+!16
+!17
+!18
+!19
+!20
+|-
+|<math>1 ^ x\,</math>
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+!
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+|'''1'''
+|-
+|<math>x ^ 1\,</math>
+|'''1'''
+|2
+|3
+|4
+|5
+|6
+|7
+|8
+|9
+|10
+!
+|11
+|12
+|13
+|14
+|15
+|16
+|17
+|18
+|19
+|20
+|}
+
+==Evolution of the glyph==
+[[Image:Evolution1glyph.svg]]
+
+The glyph used today in the Western world to represent the number 1, a vertical line, often with a serif at the top and sometimes a short horizontal line at the bottom, traces its roots back to the Indians, who wrote 1 as a horizontal line, as is still the case in [[Chinese Language|Chinese]] script. The [[Gupta script|Gupta]] wrote it as a curved line, and the [[Nagari]] sometimes added a small circle on the left (rotated a quarter turn to the right, this 9-look-alike became the present day numeral 1 in the [[Gujarati language|Gujarati]] and [[Punjabi language|Punjabi]] scripts). The [[Nepali language|Nepali]] also rotated it to the right, but kept the circle small.<ref>Georges Ifrah, ''The Universal History of Numbers: From Prehistory to the Invention of the Computer'' transl. David Bellos et al. London: The Harvill Press (1998): 392, Fig. 24.61</ref> This eventually became the top serif in the modern numeral, but the occasional short horizontal line at the bottom probably originates from similarity with the Roman numeral I. In some European countries (e.g.,  [[Germany]]) the little serif at the top is sometimes extended into a long upstroke, sometimes as long as the vertical line, which can lead to confusion with the glyph for seven in other countries. Where the 1 is written with a long upstroke, the number 7 has a horizontal stroke through the vertical line.
+
+While the shape of the 1 character has an [[ascender]] in most modern [[typeface]]s, in typefaces with [[text figures]] the character usually is of [[x-height]], as, for example, in [[Image:TextFigs148.svg]].
+
+==In technology==
+[[Image:U+2673 DejaVu Sans.svg|50px|right|1 as a resin identification code, used in recycling.]]
+* The [[resin identification code]] used in recycling to identify [[polyethylene terephthalate]].
+
+== See also ==
+{{commons|1}}
+* [[−1 (number)|−1]]
+
+==References==
+
+{{reflist}}
+
+[[Category:One| ]]
+[[Category:Integers|01]]
+
+[[af:1 (getal)]]
+[[ar:1 (عدد)]]
+[[arc:1 (ܡܢܝܢܐ)]]
+[[gn:Peteĩ]]
+[[ay:Maya]]
+[[ba:Бер]]
+[[be:Лік 1]]
+[[bs:1 (broj)]]
+[[bg:1 (число)]]
+[[ca:U (nombre)]]
+[[cv:1 (хисеп)]]
+[[ceb:1 (numero)]]
+[[cs:1 (číslo)]]
+[[co:1 (numeru)]]
+[[da:1 (tal)]]
+[[pdc:Eens]]
+[[de:Eins]]
+[[myv:1 (вейке)]]
+[[es:Uno]]
+[[eo:Unu]]
+[[ext:Unu]]
+[[eu:Bat]]
+[[fa:۱ (عدد)]]
+[[fr:1 (nombre)]]
+[[gan:1]]
+[[gl:Un]]
+[[ko:1]]
+[[hi:एक]]
+[[ig:Otu]]
+[[id:1 (angka)]]
+[[ia:1 (numero)]]
+[[xh:Inye]]
+[[is:Einn]]
+[[it:1 (numero)]]
+[[he:1 (מספר)]]
+[[ka:ერთი]]
+[[kv:1 (ӧти)]]
+[[ht:1 (nonm)]]
+[[ku:Yek]]
+[[la:Unus]]
+[[lb:Eent]]
+[[lt:1 (skaičius)]]
+[[lmo:Nümar 1]]
+[[hu:1 (szám)]]
+[[nah:Cē (tlapōhualli)]]
+[[nl:1 (getal)]]
+[[nds-nl:1 (getal)]]
+[[ja:1]]
+[[nap:Uno]]
+[[ce:Цхьаъ]]
+[[no:1 (tall)]]
+[[nn:Talet 1]]
+[[nds:1 (Tall)]]
+[[pl:1 (liczba)]]
+[[pt:Um]]
+[[qu:Huk]]
+[[ru:1 (число)]]
+[[simple:One]]
+[[sl:1 (število)]]
+[[sr:1 (број)]]
+[[srn:Numro 1]]
+[[fi:1 (luku)]]
+[[sv:1 (tal)]]
+[[tl:1 (bilang)]]
+[[te:ఒకటి]]
+[[th:1]]
+[[vi:1 (số)]]
+[[tr:1 (sayı)]]
+[[uk:1 (число)]]
+[[vls:1 (getal)]]
+[[wo:Benn]]
+[[yi:1 (נומער)]]
+[[yo:Ení]]
+[[zh-yue:1]]
+[[diq:1 (amor)]]
+[[zh:1]]
