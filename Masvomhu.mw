@@ -51,16 +51,17 @@ Muenzaniso:
 
 Chiperengo ichi, 0, chinomirira kusavapo kwechinhu. 
 
-== Huwandu mukushaiwa nehuwandu mukuwana ==
+== Huwandu mukushaiwa/mukudzokera shure nehuwandu mukuwana/mukuenderera mberi ==
 
 Huwandu hwechinhu hunoitikira mukuwana kana mukushaiwa.
 
+Huwandu hwechinhu hunoitika mukuenderera kumashure kana kumberi chechinhu chipizvacho.
+
 Kana pasina chinhu, pane 0, uye hapana huwandu mukuwana kana mukushaiwa. 
 
-Kuwana (+a) 
+'''+a''': huwandu hunoita '''a''' mukudzokera kumashure, apo '''a'' yakamirira chiperengo chohuwandu. 
 
-Kushaiwa (-a)
-
+'''-a''': huwandu hunoita '''a''' mukuenderera mberi, apo '''a'' yakamirira chiperengo chohuwandu.
 
 == Zvingaitwa kuzviperengo zvehuwandu ==
 
