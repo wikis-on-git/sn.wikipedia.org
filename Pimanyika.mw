@@ -13,7 +13,7 @@ Chinangwa chechinyorwa chino kuparura nhaurwa yezvidzidzo zveKupimanzvimbo tichi
 
 [[Chiumbwa]] (''Shape'')- chiumbwa chinogona kunge chine nzenda mbiri kana nzenda nhatu. Tsanangudzo yokuti nzenda chii iri kutevera mberi
 
-[[Uso]](''surface'')- iyi inzvimbo ine miganhu unotarwa nehwasha uye hurefu asi pasina kudzamu. Muenzaniso ungapiwa ndeuyo watinoouna takatarisa pamusoro petafura.
+[[Uso]](''surface'')- iyi inzvimbo ine miganhu unotarwa nehwasha uye hurefu asi pasina hudzamu. Muenzaniso ungapiwa ndeuyo watinoouna takatarisa pamusoro petafura.
 
 [[Hwasha]] (''width'') - shoko iri rinoreva kupamhama kwenzvimbo kana ichipimwa
 
@@ -25,7 +25,7 @@ Chinangwa chechinyorwa chino kuparura nhaurwa yezvidzidzo zveKupimanzvimbo tichi
 
 [[Gonya]] (''angle'') iri izwi rapiwa rinoreva kushama kwakaita muhawa uri pakati pemitsetse miviri kana uso huviri. Gonya kana ichipimwa inopimwa nechiyero chinonzi dhigirii
 
-[[Sambamba]] (''parallel'') - izwi iri rapiwa rinotsangangudza mitsetse miviri yakati twasa yakataramukana nhambwe dzakaenzana panzvimbo dzose kana nhambwe ichipimwa pakati pemitsetse iyi. Apa nhambwe inofanirwa kunge iri kupimwa kuchitevedzwa mitsetse inocheka negonya rakaenzana panzvimbo dzose.
+[[Sambamba]] (''parallel'') - izwi iri rapiwa rinotsangangudza mitsetse miviri yakati twasa yakataramukana nhambwe dzakaenzana panzvimbo dzose kana nhambwe ichipimwa pakati pemitsetse iyi. Apa nhambwe inofanirwa kunge iri kupimwa kuchitevedzwa mitsetse wechitatu unocheka mitsetse miviri yokutanga. Mutsetse wechitatu unofanirwa kunge uchicheka miviri yokutanga muhawa rine gonya rakaenzana panzvimbo dzose. Muenzaniso wemitsetse wakati sambamba isimbi mbiri dzenjanji nokuti dzinofamba dzakayererana asi dzisingapesane.
 
 [[Twasu]] (straight or flat) - izwi rinotsanangudza mutsetse kana kuti uso hwakatichechetere kunge pamusoro pemvura yakagadzikana isina masaisai. Mutsetse uwu unenge usina gonya kana munyonga.
 
@@ -39,6 +39,8 @@ Chinangwa chechinyorwa chino kuparura nhaurwa yezvidzidzo zveKupimanzvimbo tichi
 
 [[Sandarara]] (''Horizontal, straight and flat'') - izwi rinoreva uso hwakatichechetere kunge pamusoro pemvura yakagadzikana isina masaisai.
 
+[[Mvurwi]] (Plane, flat area)- izwi iri rapiwa richireva uso hwakatichchetere kunge pamusoro pemvura. Mvurwi inogonga kunge yakaita mutwi kana kuti sandarara kana kurereka neipi zvayo gonya. Izwi iri rinotodzera padhorobha reMvurwi rinova dunhu riri panzvimbo yakati sandarara isina makomo. 
+
 [[Ruvanze]] (''Area'') - izwi rinoreva kukura kwakaita nzvimbo kana hwasha huchitsinhaniswa nehurefu hwenzvimbo iyoyo.
 
 [[Mumhu]] (''Volume'') - iri izwi rapiwa kuti rireve kukura kwakaita nzvimbo kana hwasha, hurefu, nehudzamu zvatsinhaniswa. Shoko iri rinoreva kukura kwakaita munhu, mhuka kana chinhu mukutaura kwemazuva ose. Ndiro shoko randaona riri pedyo kutsanangudza volume.
@@ -46,6 +48,10 @@ Chinangwa chechinyorwa chino kuparura nhaurwa yezvidzidzo zveKupimanzvimbo tichi
 [[Chimiso]] (''point'') - iri rinotsangura kanzvimbo katokotoko kasina hwasha, herufu, kana hudzamu. Takatsimbidzira penzura papepa tingaedzesera kucherechedza Chimiso; asi kana nepo dowo rinoitwa nemurumo wepenzura rine nhambwe - chimiso hachina nhambwe.
 
 [[Nzenda]] (''dimensions'') - iri shoko rapiwa kutsanangura dimensions. Saka 2-dimensional inenge iri nzenda mbiri (2-nzenda), 3 dimensional inenge iri nzenda nhatu (3-nzenda). Chiumbwa chiri pauso hwakati sandarara (plane)chinenge chiine 2-nzenda, hwasha nehurefu. Chiumbwa chine mumhu chinonzi chine nzenda nhatu; hwasha, hurefu, nehudzamu. Shoko iri rinotoredzera pane rokuti ''kuenda''; saka 3-dimensiional shape unokwanisa kuenda uchitevedza hwasha, hurefu, nehudzamu - nzenda nhatu.
+
+[[Tsazaniso]] (Equation) - izwi kunyorwa kunotaridza kuti mativi maviri ezvakanyorwa akaenzana kana kuti anotaura zvakaenzana. Shoko iri rinotodza kubva pashoko reChiManyika rinoti kutsazana rinoreva kuenzana. Nokuda kwekuti mamwe mashoko haasiri anoshandiswa mazuvaose ndiri kukwereta mashoko iwayo ndichiita kuti ashande muchidzidzo chePimanzvimbo.
+
+
 
 == Kupa Mazita eZviumbwa ==
 
@@ -69,7 +75,7 @@ Tichiri ipapo zvakafanira kuti tionesane kuti gonyazhnji rega-rega rakaumbwa rii
 
 Sarudzo yokuti darisanwa idivi ripi uye hwaro divi ripi inodudzirwa nokuti timire mugonya ripi. Muzendami ndiye murefu anoramba aine zita rimwechete - uyu haachinje. Divi rakabatana negonya ratiri kushanda naro ndiro rinova hwaro, repiri rakaita mutwi nehwaro ndiro rinova darisanwa. Zvizhinji zvichatsanangurwa muchikamu che ''trigonometry'' chichatevera mberi.
 
-[[Fananidzo]]: Iro shoko reChirungu rinoti ''hypotenuse'' rinomborevei? Shoko rokuti'' hypo'' rinobva pashoko reLatin rinoreva kuti ''under''. Shoko rokuti ''tenuse'' rinobva zvakare kuLatin richireva kuti ''stretched''.  Vakare vakatanga chidzidzo Kupimanzvimbo vakacherechedza vakaona divi refu regonyanhatu iri richitaridzika seratatamurwa kana kuti paChirungu riri under ''tension or stretched''. Vakare ava vakaenda mberi kwedu vaipawo mazita maererano nemaonero avaiita panguva yavo - ini ndinoonawo zvakafanira kuti kuChiShona tipe mazita maererano nemaonero edu sekuitawo kwakaita vakare vakaumba chidzidzo ichi kuChirungu. Nekukurawo kweruzivo tinoramba tichivandudza chidzidzo ichi kuti chitsangure zvine hudzamu hunokurawo.
+[[Fananidzo]]: Iro shoko reChirungu rinoti ''hypotenuse'' rinomborevei? Shoko rokuti'' hypo'' rinobva pashoko reLatin rinoreva kuti ''under''. Shoko rokuti ''tenuse'' rinobva zvakare kuLatin richireva kuti ''stretched''.  Vakare vakatanga chidzidzo Kupimanzvimbo vakacherechedza vakaona divi refu regonyanhatu richitaridzika seratatamurwa kana kuti paChirungu riri under ''tension or stretched''. Vakare ava vakaenda mberi kwedu vaipawo mazita maererano nemaonero avaiita panguva yavo - ini ndinoonawo zvakafanira kuti kuChiShona tipe mazita maererano nemaonero edu sekuitawo kwakaita vakare vakaumba chidzidzo ichi kuChirungu. Nekukurawo kweruzivo tinoramba tichivandudza chidzidzo ichi kuti chitsangure zvine hudzamu hunokurawo.
 
 [[Dendenedzwa]] (''circle'' muChiRungu)
 
@@ -79,8 +85,13 @@ Sarudzo yokuti darisanwa idivi ripi uye hwaro divi ripi inodudzirwa nokuti timir
 
 [[Mucheko]] (''Cross-section'') - iri shoko rinoreva uso hunoonekwa kana zhumwi rachekwa zvakati sambamba nehwaro hwezhumwi. 
 
+[[Ruvanze rweMucheko]] (Cross-sectional area) - izwi iri rinotaura kukura kweuso hunoonekwa kana zhumwi yachekwa. Muzvinyorwa zviri kutevera tichange tichidzidza pamusoro petsazaniso dzekutsvaka kukura kwakaita ruvanze rweMucheko
+
 [[Gonyaina sambamba]] (''Parallelogram'') - ichi chiumbwa chine mativi mana - mativi maviri akati sambamba anenge akaenzana - uye gonya mbiri dzinobatanidzwa negokomagonya dzinenge dzakaenzana.
+
+[[Tsazana]] (Square) iri shoko rinoreva chiumbwa chine mativi mana ose akaenzana negonyaina dzose dzakaenzana. Tsazana iri mubandiko wegonyaina.
+
 
 [[Charaka]] (''Cone'') - iri izwi rinoreva chiumbwa chine uso huviri, humwe huri hwaro hwedenderedzwa hwakati sandarara hwepiri huri uso hunopfirira hwaro kusvika ''pachisuvi (apex)''. Nguva zhinji chisuvi chinenge chakaita mutwi negoko redenderedzwa riri pauso hunova hwaro. Shoko reShona iri rinotodzana necharaka chinowanikwa paduwo rinoteyeswa hove rine kuumbwa kwe ''cone'' - hove inopinda nekwakapamhama, yave mukati charaka chakamanika zvokuti hove itadze kubuda.
 
-[[Dumba]] (''Pyramid'')- iri shoko rinotoredzera kubva pachiumbwa chinoonekwa kana tichitema mashanga echigabe nokuamisa kuita matumba. Tiri muchidzidzo Kupimanzimbo kune marudzi ematumba anodanwa zvakasiyana zvichienderana nechiumbwa chiri pahwaro hwedumba racho. Sokuti kune ''dumba regonyanhanhatu'' (hexagonal pyramid)
+[[Dumba]] (''Pyramid'')- iri shoko rinotoredzera kubva pachiumbwa chinoonekwa kana tichitema mashanga echigabe nokuamisa kuita matumba. Tiri muchidzidzo Kupimanzimbo kune marudzi ematumba anodanwa zvakasiyana zvichienderana nechiumbwa chiri pahwaro hwedumba racho. Sokuti kune ''dumba regonyanhanhatu'' (hexagonal pyramid). Kunoitawo ''dumba tsazana'' (square based pyramid)
