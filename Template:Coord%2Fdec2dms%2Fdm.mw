@@ -1,0 +1,1 @@
+{{#expr:{{{1}}} mod 360}}°{{padleft:{{#expr:({{{1}}} * 600 round 0) mod 600 / 10 round 0}}|2|0}}′<noinclude>This is a copy of the en.wp template</noinclude>
