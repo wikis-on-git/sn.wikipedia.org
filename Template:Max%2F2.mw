@@ -1,0 +1,2 @@
+<includeonly>{{#ifexpr:{{{1}}}<{{{2}}}|{{{2}}}|{{{1}}}}}</includeonly><noinclude>
+This is a copy of the en.wp template</noinclude>
