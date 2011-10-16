@@ -21,4 +21,27 @@
 -->{{#ifeq:{{{type|μ}}}|μ||{{Coord/input/error2|msg=type= should be type:|sort_ch=T}}}}<!--
 --></includeonly><noinclude>
 This is a copy of the [[:en:Template:Coord]]. Should eventually rename to localized name.
+
+==Test Examples==
+{|class="wikitable" border="1" cellpadding="2" cellspacing="0" style="background: #f9f9f9; border: 1px solid #aaaaaa; border-collapse: collapse; white-space: nowrap;"
+! Actual !! Expected !! Description
+|-
+|{{coord|43.651234|-79.383333}} ||   43.651234°N 79.383333°W ||	Toronto – Fully decimal – N & W
+|-
+|{{coord|43.65|-79.38}} 	||   43.65°N 79.38°W || Toronto – less precise
+|-
+|{{coord|43.6500|-79.3800}} 	||   43.6500°N 79.3800°W  || Toronto – medium precision with trailing zeroes
+|-
+|{{coord|43.651234|N|79.383333|W}}||  43.651234°N 79.383333°W || Toronto – decimal with Northing & Westing
+|-
+|{{coord|43|29|N|79|23|W}} 	||   43°29′N 79°23′W 	||        Toronto – degrees & minutes
+|-
+|{{coord|43|29|4|N|79|23|0|W}} 	||   43°29′4″N 79°23′0″W   || Toronto – degrees, minutes & seconds
+|-
+|{{coord|43|29|4.5|N|79|23|0.5|W}} || 43°29′4.5″N 79°23′0.5″W || Toronto – degrees, minutes, seconds & fractions of seconds
+|-
+|{{coord|55.752222|N|37.615556|E}} || 55.752222°N 37.615556°E || Moscow – N & E
+|-
+|{{coord|55.752222|N|37.615556|E|format=dms}}|| 55°45′08″N 37°36′56″E || Convert to dms format
+|}
 </noinclude>
