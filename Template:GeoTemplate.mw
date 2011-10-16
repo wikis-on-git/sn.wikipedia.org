@@ -29,15 +29,9 @@
 | colspan="3" style="padding-bottom:1.5em;"| [{{SERVER}}/wiki/{pagename} {title}]
 |}
 </div>
-<br />
 __NOTOC__
-<!-- services -->
-{| cellpadding="0" cellspacing="0" style="background:none; border-collapse:collapse; table-layout:fixed; width:100%;"
-|- style="vertical-align:top;"
-| class="directory" style="width:50%;" | <div id="GEOTEMPLATE-GLOBAL">
-
 ==Global services==
-{| border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse; width:98%;"
+{| border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse; "
 |- style="background:#efefef"
 ! scope="col" | Service
 ! scope="col" | Map
@@ -163,22 +157,6 @@ __NOTOC__
 | [http://maps.yahoo.com/broadband/#mvt=m&lat={latdegdec}&lon={londegdec}&mag=6&q1={latdegdec},{londegdec} Map]
 | [http://maps.yahoo.com/broadband/#mvt=h&lat={latdegdec}&lon={londegdec}&mag=6 Satellite]
 |
-|}
-</div>
-| class="directory" style="width:50%; vertical-align:top;"| <div id="GEOTEMPLATE-LOCAL">
-
-==&emsp;==
-
-<div class="thumb tright">
-<div class="thumbinner" style="width:362px;">
-<div class="WMA:{latdegdec}_{londegdec}_360_270_{{CONTENTLANGUAGE}}_{zoom}_en" style="background:#aaa; width:360px; height:270px; float:right;">JavaScript disabled</div>
-<div class="thumbcaption">
-</div>
-</div>
-</div>
-
-</div>
-
 |}
 
 ==Wikipedia articles==
