@@ -1,0 +1,358 @@
+<div class="toccolours" style="font-size:92%;">
+<!-- Input -->
+{| style="background:none; text-align:left; width:100%; border-collapse:collapse;"
+|- style="vertical-align:top;"
+! WGS84
+| colspan="3" style="width:95%;" | <span title="Latitude">{latdegabs}°&nbsp;{latminint}′&nbsp;{latsecdec}″&nbsp;{latNS}</span>, <span title="Longitude">{londegabs}°&nbsp;{lonminint}′&nbsp;{lonsecdec}″&nbsp;{lonEW}</span><br /><span class="geo"><span class="latitude" title="Latitude">{latdegdec}</span>, <span class="longitude" title="Longitude">{londegdec}</span></span>
+| rowspan="6" |<!-- minimap -->
+<div style="position:relative; width:360px; height:180px;">
+<div style="position:absolute;">[[File:Earthmap1000x500.jpg|360x180px|alt=|link=]]</div>
+<div style="position:absolute; top:97px; left:176px;">
+<div style="position:absolute; bottom:{latdegint}px; left:{londegint}px;" title="{title}">[[File:Locator Dot.png|8x8px|alt=|link=]]</div>
+</div>
+</div>
+|-
+! UTM
+| colspan="3" | <span title="Zone">{utmzone}</span> <span title="Easting">{utmeasting}</span> <span title="Northing">{utmnorthing}</span>
+|-
+! style="width:3em;" | Zoom
+| {zoom}
+! style="width:3em;" | Scale
+| ± 1:{scale}
+|-
+! Region
+| [{{SERVER}}/wiki/ISO_3166-2:{region} {region}]
+! Type
+| {type}&nbsp;
+|- style="vertical-align:top;"
+! Title
+| colspan="3" style="padding-bottom:1.5em;"| [{{SERVER}}/wiki/{pagename} {title}]
+|}
+</div>
+<br />
+__NOTOC__
+<!-- services -->
+{| cellpadding="0" cellspacing="0" style="background:none; border-collapse:collapse; table-layout:fixed; width:100%;"
+|- style="vertical-align:top;"
+| class="directory" style="width:50%;" | <div id="GEOTEMPLATE-GLOBAL">
+
+==Global services==
+{| border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse; width:98%;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Satellite
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | ACME Mapper
+| [http://mapper.acme.com/?ll={latdegdec},{londegdec}&z={osmzoom}&t=M&marker0={latdegdec},{londegdec},{title} Map]
+| [http://mapper.acme.com/?ll={latdegdec},{londegdec}&z={osmzoom}&t=H&marker0={latdegdec},{londegdec},{title} Satellite]
+| [http://mapper.acme.com/?ll={latdegdec},{londegdec}&z={osmzoom}&t=R&marker0={latdegdec},{londegdec},{title} Terrain],&nbsp;[http://mapper.acme.com/?ll={latdegdec},{londegdec}&z={osmzoom}&t=T&marker0={latdegdec},{londegdec},{title} Topo]&nbsp;[http://mapper.acme.com/?ll={latdegdec},{londegdec}&z={osmzoom}&t=K&marker0={latdegdec},{londegdec},{title} Mapnik]
+|- style="background:#f5f5f5"
+! scope="row" style="font-weight:normal; text-align:left;" | Ayna
+| [http://maps.ayna.com/?lang=en&lon={londegdec}&lat={latdegdec}&zoom={osmzoom}&layer=m&marker=1&title={title} Maps]
+| [http://maps.ayna.com/?lang=en&lon={londegdec}&lat={latdegdec}&zoom={osmzoom}&layer=s&marker=1&title={title} Satellite]
+|
+|- style="background:#bbeebb"
+! scope="row" style="font-weight:normal; text-align:left;" | '''Bing Maps'''
+| [http://maps.bing.com/default.aspx?v=2&cp={latdegdec}~{londegdec}&style=r&lvl={osmzoom}&sp=Point.{latdegdec}_{londegdec}_{title}___ Map]
+| [http://maps.bing.com/default.aspx?v=2&cp={latdegdec}~{londegdec}&style=h&lvl={osmzoom}&sp=Point.{latdegdec}_{londegdec}_{title}___ Aerial]
+| [http://maps.bing.com/default.aspx?v=2&cp={latdegdec}~{londegdec}&style=o&lvl={osmzoom}&sp=Point.{latdegdec}_{londegdec}_{title}___ Bird's Eye]
+|- style="background:#f5f5f5"
+! scope="row" style="font-weight:normal; text-align:left;" | Blue Marble Navigator
+|
+| [http://www.blue-marble.de?lon={londegdec}&nlat={latdegdec}&borders&geonames&townnames&zoom&overlay=7&base=14 Satellite]
+|
+|- style="background:#f5f5f5"
+! scope="row" style="font-weight:normal; text-align:left;" | Flash Earth
+|
+| [http://www.flashearth.com/?lat={latdegdec}&lon={londegdec}&z=15&r=0&src=ggl Satellite]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Fourmilab
+|
+| [http://www.fourmilab.ch/cgi-bin/uncgi/Earth?imgsize=320&opt=-l&lat={latdegdec}&ns=North&lon={londegneg}&ew=West&alt={altitude}&img=nasa.evif Satellite]
+|
+|- style="background:#f5f5f5"
+! scope="row" style="font-weight:normal; text-align:left;" | GeaBios
+|
+|[http://www.geabios.com/html/services/maps/PublicMap.htm?lat={latdegdec}&lon={londegdec}&fov={span}&title={title} Satellite]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | GeoNames
+|
+| [http://www.geonames.org/maps/google_{latdegdec}_{londegdec}.html Satellite]
+| [http://ws.geonames.org/extendedFindNearby?lat={latdegdec}&lng={londegdec} Text (XML)]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Google Earth
+|
+| [http://maps.google.com/maps?&q={latdegdec},{londegdec}&spn={span},{span}&output=kml Open]
+| [{{fullurl:tools:~para/earth.php|latdegdec={latdegdec}&londegdec={londegdec}&scale={scale}&title={title}}} w/ meta data]
+|- style="background:#bbeebb"
+! scope="row" style="font-weight:normal; text-align:left;" | '''Google Maps'''
+| [http://maps.google.com/maps?ll={latdegdec},{londegdec}&spn={span},{span}&t=m&q={latdegdec},{londegdec} Map]
+| [http://maps.google.com/maps?ll={latdegdec},{londegdec}&spn={span},{span}&t=h&q={latdegdec},{londegdec} Satellite]
+| [http://maps.google.com/maps?ll={latdegdec},{londegdec}&spn={span},{span}&t=p&q={latdegdec},{londegdec} Terrain]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | GPS Visualizer
+| [http://www.gpsvisualizer.com/map_input?special=wikipedia&format=google&bg_map=google_map&sp_width=50km&google_zoom_level={zoom}&form:data=type,name,latitude,longitude%0DW,%22{title}%22,{latdegdec},{londegdec} Map]
+| [http://www.gpsvisualizer.com/map_input?special=wikipedia&format=google&bg_map=google_hybrid&sp_width=50km&google_zoom_level={zoom}&form:data=type,name,latitude,longitude%0DW,%22{title}%22,{latdegdec},{londegdec} Satellite]
+| [http://www.gpsvisualizer.com/draw/?zoom={zoom}&center={latdegdec},{londegdec}&note={title} Drawing utility]
+|- style="background:#f5f5f5"
+! scope="row" style="font-weight:normal; text-align:left;" | Nokia Maps
+| [http://link2.map24.com/?lid=879d2d1e&maptype=JAVA&wxdd0={londegdec}&wydd0={latdegdec}&name0=Location+display&description0={latdegdec}+N+{londegdec}+E&logo_url0=http://documents.map24.com/wiki.gif&url0=http://www.wikipedia.org Map]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | MapQuest
+| [http://atlas.mapquest.com/maps/map.adp?searchtype=address&formtype=address&latlongtype=degrees&latdeg={latdegint}&latmin={latminint}&latsec={latsecint}&longdeg={londegint}&longmin={lonminint}&longsec={lonsecint}&zoom={zoom}&title={title} Map]
+|
+|
+|- style="background:#f5f5f5"
+! scope="row" style="font-weight:normal; text-align:left;" | MapTech
+| [http://mapserver.maptech.com/homepage/index.cfm?lat={latdegdec}&lon={londegdec}&scale=24000&zoom=50&type=1 Map]
+|
+|
+|- style="background:#f5f5f5"
+! scope="row" style="font-weight:normal; text-align:left;" | MSN maps
+| [http://maps.msn.com/map.aspx?lats1={latdegdec}&lons1={londegdec}&alts1={altitude}&regn1=2 Map]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | NASA World Wind
+|
+| [worldwind://goto/world=Earth&lat={latdegdec}&lon={londegdec}&view={span} Open]
+|
+|- style="background:#f5f5f5"
+! scope="row" style="font-weight:normal; text-align:left;" | Norkart Virtual Globe
+|
+| [http://www.virtual-globe.info/VirtualGlobeStarter.php?request=page&dataset=http://www.virtual-globe.info/globe.vgml&lookat={londegdec},{latdegdec},{scale} Satellite]
+|
+|- style="background:#bbeebb"
+! scope="row" style="font-weight:normal; text-align:left;" | '''OpenStreetMap'''
+| [http://www.openstreetmap.org/index.html?mlat={latdegdec}&mlon={londegdec}&zoom={osmzoom}&layers=B000FTF Map]
+|
+| [http://toolserver.org/~geohack/geohack.php?project=osm&pagename={title}&language=en&params={params} more maps], [http://nominatim.openstreetmap.org/reverse?lat={latdegdec}&&lon={londegdec}&zoom={zoom} Nominatim (reverse geocoding)]
+|- style="background:#f5f5f5"
+! scope="row" style="font-weight:normal; text-align:left;" | Shaded Relief
+| [http://www.shaded-relief.com/?gt={latdegdec}&gl={londegdec}&z=9&t=4 Map]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | TerraServer
+|
+| [http://www.terraserver.com/view.asp?cx={londegdec}&cy={latdegdec}&proj=4326&mpp=2.5&pic=img Satellite]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | ViaMichelin International
+| [http://www.viamichelin.com/viamichelin/int/search/Cartes/{londegdec}*{latdegdec}?zoomLevel=9 Map]
+|
+|
+|- style="background:#bbeebb"
+! scope="row" style="font-weight:normal; text-align:left;" | '''Wikimapia'''
+| [http://www.wikimapia.org/#lat={latdegdec}&lon={londegdec}&spnx={span}&spny={span}&m=w Map]
+| [http://www.wikimapia.org/#lat={latdegdec}&lon={londegdec}&spnx={span}&spny={span}&m=b Satellite]
+| [http://www.wikimapia.org/#lat={latdegdec}&lon={londegdec}&spnx={span}&spny={span}&m=b&v=8 + old places]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | WikiMiniAtlas
+| [http://toolserver.org/~dschwen/wma/iframe.html?{latdegdec}_{londegdec}_800_600_en_{zoom}_en Map]
+|
+|
+|- style="background:#f5f5f5"
+! scope="row" style="font-weight:normal; text-align:left;" | Yahoo! Maps
+| [http://maps.yahoo.com/broadband/#mvt=m&lat={latdegdec}&lon={londegdec}&mag=6&q1={latdegdec},{londegdec} Map]
+| [http://maps.yahoo.com/broadband/#mvt=h&lat={latdegdec}&lon={londegdec}&mag=6 Satellite]
+|
+|}
+</div>
+| class="directory" style="width:50%; vertical-align:top;"| <div id="GEOTEMPLATE-LOCAL">
+
+==&emsp;==
+
+<div class="thumb tright">
+<div class="thumbinner" style="width:362px;">
+<div class="WMA:{latdegdec}_{londegdec}_360_270_{{CONTENTLANGUAGE}}_{zoom}_en" style="background:#aaa; width:360px; height:270px; float:right;">JavaScript disabled</div>
+<div class="thumbcaption">
+</div>
+</div>
+</div>
+
+</div>
+
+|}
+
+==Wikipedia articles==
+<div class="directory">
+{| border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Aspect
+! scope="col" | Link
+! scope="col" | Prepared by
+! scope="col" | Estimated update
+|-
+| Article on specific latitude/longitude
+<!-- for [[Category talk:Lines of latitude#Redirects]], [[Category talk:Lines of longitude#Redirects]] -->
+| [http://en.wikipedia.org/wiki/Latitude_{latdegabs}_degrees_{latNS} Latitude {latdegabs}° {latNS}] and [http://en.wikipedia.org/wiki/Longitude_{londegabs}_degrees_{lonEW} Longitude {londegabs}° {lonEW}]
+| —
+| —
+|- style="background:#f5f5f5"
+| style="overflow:hidden;" | All coordinates on ''{pagename}'' in
+| [http://maps.google.com/maps?q=http%3A//toolserver.org/~para/cgi-bin/kmlexport?project={{CONTENTLANG}}%26article%3D{pagename} Google Maps], [http://maps.live.com/?mapurl=http%3A//toolserver.org/~para/cgi-bin/kmlexport?project={{CONTENTLANG}}%26article%3D{pagename} Live Search Maps]
+| Para
+| near real-time
+|- style="white-space:nowrap;"
+| Layer in
+| [http://toolserver.org/~dschwen/wma/iframe.html?{latdegdec}_{londegdec}_800_600_en_{zoom}_en WikiMiniAtlas]
+| Dschwen
+| 1-2 per week (as of May 2009)
+|- style="background:#f5f5f5"
+| Layer in
+| [http://maps.google.com/maps?ll={latdegdec},{londegdec}&spn={span},{span}&t=m&q={latdegdec},{londegdec}&lci=org.wikipedia.en Google Maps]
+| Google
+| July 2008 (as of Feb 2009)
+|-
+| Layer in
+| [http://www.geonames.org/maps/wikipedia_{latdegdec}_{londegdec}.html Google Maps]
+| Geonames
+| Dec 2007 (as of Feb 2009)
+|- style="background:#f5f5f5"
+| Layer in
+| [http://maps.google.com/maps?ll={latdegdec},{londegdec}&spn={span},{span}&q=http:%2F%2Ftoolserver.org%2F~kolossos%2Fgeoworld%2FWP-world-maps.php%3Flang%3Den Google Maps]
+| Wikipedia-World
+| 6 per year (as of Oct 2010)
+|-
+| Layer in
+| [{{fullurl:tools:~kolossos/openlayers/kml-on-ol.php|la=en&uselang=en&lon={londegdec}&lat={latdegdec}&rang=50&map=1}} OpenStreetMap]
+| Wikipedia-World
+| 6 per year (as of Oct 2010)
+|- style="background:#f5f5f5"
+| Layer in
+| [http://maps.live.com/default.aspx?v=2&cp={latdegdec}~{londegdec}&style=r&lvl={osmzoom}&explore=sst.0~tag.Wikipedia&sp=Point.{latdegdec}_{londegdec}_{title}___ Live Search Maps]
+| Virtual Earth
+| Feb 2008 (as of Feb 2009)
+|-
+| Layer in
+| [http://www.multimap.com/maps/?zoom=14&lat={latdegdec}&lon={londegdec}&p=mm.poi.global.general.wikipedia Multimap]
+| Multimap
+| July 2008 (as of Feb 2009)
+|- style="background:#f5f5f5"
+| Table of coordinates
+| [{{fullurl:tools:~kolossos/wp-world/umkreis.php|la=en&submit=Table&lon={londegdec}&lat={latdegdec}&rang=5&map=0&limit=75}} 5,] [{{fullurl:tools:~kolossos/wp-world/umkreis.php|la=en&submit=Table&lon={londegdec}&lat={latdegdec}&rang=10&map=0&limit=75}} 10,] [{{fullurl:tools:~kolossos/wp-world/umkreis.php|la=en&submit=Table&lon={londegdec}&lat={latdegdec}&rang=20&map=0&limit=250}} 20,] [{{fullurl:tools:~kolossos/wp-world/umkreis.php|la=en&submit=Table&lon={londegdec}&lat={latdegdec}&rang=50&map=0&limit=400}} 50,] [{{fullurl:tools:~kolossos/wp-world/umkreis.php|la=en&submit=Table&lon={londegdec}&lat={latdegdec}&rang=100&map=0&limit=500}} 100,] or [{{fullurl:tools:~kolossos/wp-world/umkreis.php|la=en&submit=Table&lon={londegdec}&lat={latdegdec}&rang=250&map=0&limit=500}} 250] km away
+| Wikipedia-World
+| 6 per year (as of Oct 2010)
+|-
+| Table of coordinates
+| [{{fullurl:tools:~dispenser/cgi-bin/locateCoord.py|dbname=coord_enwiki&lon={londegdec}&lat={latdegdec}&range_km=5}} 5,] [{{fullurl:tools:~dispenser/cgi-bin/locateCoord.py|dbname=coord_enwiki&lon={londegdec}&lat={latdegdec}&range_km=10}} 10,] [{{fullurl:tools:~dispenser/cgi-bin/locateCoord.py|dbname=coord_enwiki&lon={londegdec}&lat={latdegdec}&range_km=20}} 20,] [{{fullurl:tools:~dispenser/cgi-bin/locateCoord.py|dbname=coord_enwiki&lon={londegdec}&lat={latdegdec}&range_km=50}} 50,] [{{fullurl:tools:~dispenser/cgi-bin/locateCoord.py|dbname=coord_enwiki&lon={londegdec}&lat={latdegdec}&range_km=100}} 100,] or [{{fullurl:tools:~dispenser/cgi-bin/locateCoord.py|dbname=coord_enwiki&lon={londegdec}&lat={latdegdec}&range_km=250}} 250] km away
+| Dispenser
+| daily 07:00 UTC
+|- style="background:#f5f5f5"
+| Table of coordinates
+| [http://www.geonames.org/maps/wikipedia_{latdegdec}_{londegdec}.html Geonames]
+| Geonames
+| Dec 2007 (as of Feb 2009)
+|}
+</div>
+
+==Photos==
+<div class="directory">
+{| border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" colspan="2" | Service
+|-
+| [http://maps.google.com/maps?ll={latdegdec},{londegdec}&spn={span},{span}&q=http://toolserver.org/~para/GeoCommons/GeoCommons-simple.kml Commons]
+| [http://toolserver.org/~para/GeoCommons/proximityrama?latlon={latdegdec},{londegdec} Proximityrama]
+|- style="background:#f5f5f5"
+| [http://www.flickr.com/map/?fLat={latdegdec}&fLon={londegdec}&zl=5 Flickr map]
+| [http://www.flickr.com/nearby/{latdegdec},{londegdec}?show=thumb&fromfilter=1&by=everyone&taken=alltime&sort=mostrecent Flickr 'nearby']
+|-
+| [http://loc.alize.us/#/geo:{latdegdec},{londegdec},14,m/sort:date/ Loc.alize.us]
+|
+|- style="background:#f5f5f5"
+| [http://www.panoramio.com/map/#lt={latdegdec}&ln={londegdec}&z=0&k=0&a=1&tab=2 Panoramio]
+|
+|-
+| [http://www.planeteye.com/maps?refcon=wikipedia&pll={latdegdec},{londegdec}&z={osmzoom}&title={title}&type={type}&scale={scale}&region={region}&sd=photos PlanetEye]
+|
+|- style="background:#f5f5f5"
+| [http://virtualglobetrotting.com/ll/{latdegdec},{londegdec} VirtualGlobetrotting]
+|
+|-
+| [http://whereto.org/search?q={latdegdec},{londegdec}/{span} WhereTo.org]
+|
+|- style="background:#f5f5f5"
+| [http://www.360cities.net/map#lat={latdegdec}&lng={londegdec}&zoom={osmzoom} 360 Cities]
+| 
+|}
+</div>
+
+<!-- End region specific -->
+</div>
+
+<noinclude>
+[[af:Sjabloon:GeoTemplate]]
+[[ar:قالب:قالب جغر]]
+[[an:Plantilla:GeoTemplate]]
+[[ast:Plantía:GeoTemplate]]
+[[be:Шаблон:GeoTemplate]]
+[[be-x-old:Шаблён:GeoTemplate]]
+[[br:Patrom:GeoTemplate]]
+[[bg:Шаблон:GeoTemplate]]
+[[ca:Plantilla:GeoTemplate]]
+[[cs:Šablona:GeoTemplate]]
+[[da:Skabelon:GeoTemplate]]
+[[de:Vorlage:GeoTemplate]]
+[[nv:Bee álnééhí:GeoTemplate]]
+[[et:Mall:GeoTemplate]]
+[[el:Πρότυπο:GeoTemplate]]
+[[es:Plantilla:GeoTemplate]]
+[[eo:Ŝablono:GeoTemplate]]
+[[eu:Txantiloi:GeoTemplate]]
+[[fa:الگو:GeoTemplate]]
+[[fo:Fyrimynd:GeoTemplate]]
+[[fr:Modèle:GeoTemplate]]
+[[fy:Berjocht:GeoTemplate]]
+[[gl:Modelo:GeoTemplate]]
+[[gu:ઢાંચો:GeoTemplate]]
+[[ko:틀:GeoTemplate]]
+[[hy:Կաղապար:GeoTemplate]]
+[[bpy:মডেল:GeoTemplate]]
+[[id:Templat:GeoTemplate]]
+[[is:Snið:GeoTemplate]]
+[[it:Template:GeoTemplate]]
+[[he:תבנית:GeoTemplate]]
+[[ka:თარგი:GeoTemplate]]
+[[sw:Kigezo:GeoTemplate]]
+[[lv:Veidne:GeoTemplate]]
+[[lt:Šablonas:GeoTemplate]]
+[[hu:Sablon:GeoTemplate]]
+[[mk:Шаблон:GeoTemplate]]
+[[ml:ഫലകം:GeoTemplate]]
+[[mr:साचा:GeoTemplate]]
+[[ms:Templat:GeoTemplate]]
+[[nah:Nemachiyōtīlli:GeoTemplate]]
+[[nl:Sjabloon:GeoTemplate]]
+[[nds-nl:Mal:GeoTemplate]]
+[[ja:Template:GeoTemplate]]
+[[no:Mal:GeoTemplate]]
+[[nn:Mal:GeoTemplate]]
+[[oc:Modèl:GeoTemplate]]
+[[nds:Vörlaag:GeoTemplate]]
+[[pl:Szablon:GeoTemplate]]
+[[pt:Predefinição:GeoTemplate]]
+[[ksh:Schablon:GeoTemplate]]
+[[ro:Format:GeoTemplate]]
+[[ru:Шаблон:GeoTemplate]]
+[[sq:Stampa:GeoTemplate]]
+[[si:සැකිල්ල:භූසැකිලි]]
+[[sk:Šablóna:GeoTemplate]]
+[[sl:Predloga:GeoTemplate]]
+[[fi:Malline:GeoTemplate]]
+[[sv:Mall:GeoTemplate]]
+[[tt:Үрнәк:GeoTemplate]]
+[[th:แม่แบบ:GeoTemplate]]
+[[tr:Şablon:GeoTemplate]]
+[[uk:Шаблон:GeoTemplate]]
+[[vi:Bản mẫu:GeoTemplate]]
+[[vo:Samafomot:GeoTemplate]]
+[[zh:Template:GeoTemplate]]
+</noinclude>
